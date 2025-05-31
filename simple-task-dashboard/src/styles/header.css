@@ -1,0 +1,34 @@
+/* CSS Styles for the header */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.header h1 {
+    margin: 0;
+}
+.header p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.header a:hover {
+    color: #04360f;
+    text-decoration: none;
+}
+.header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.header nav li {
+    display: inline;
+}
