@@ -1,0 +1,46 @@
+/* CSS styles for the footer */
+.footer {
+    background-color: #388E3C;
+    color: white;
+    padding: 16px 20px 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+    z-index: 100;
+}
+
+.footer p {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer nav li {
+    display: inline;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: color 0.2s;
+}
+
+.footer a:hover {
+    color: #3d5f44;
+    text-decoration: none;
+}
