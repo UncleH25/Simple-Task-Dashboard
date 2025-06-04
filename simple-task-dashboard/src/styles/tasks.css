@@ -1,0 +1,28 @@
+.task-input {
+    padding: 8px 12px;
+    border: 1px solid #b2dfdb;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 60%;
+    max-width: 260px;
+    outline: none;
+    transition: border 0.2s;
+}
+.task-input:focus {
+    border-color: #4CAF50;
+}
+
+.delete-task-button {
+    background: none;
+    border: none;
+    color: #d32f2f;
+    font-size: 1.1em;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+    padding: 2px 6px;
+}
+.delete-task-button:hover {
+    background: #ffd6d6;
+}
